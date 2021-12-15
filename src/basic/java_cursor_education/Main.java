@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        int x, y, a, w, b, e;
+        int x, y, a, w, b, X, e;
 
         int res_int_1, res_int_2, res_int_3, res_int_4;
         float res_float_1, res_float_2, res_float_3, res_float_4;
@@ -18,6 +18,7 @@ public class Main {
         a = 7;
         w = 8;
         b = 10;
+        X = 10;
         e = 5;
 
         System.out.println("Homework №1 CURSOR. EDUCATION, Dmitry Porva");
@@ -72,14 +73,14 @@ public class Main {
         //System.out.println(" (double) "+res_byte_3);
 
         //_4    X-e/2%e+1
-        String p4 = x + "-" + e + "/" + 2 + "%" + e + "+" + 1 + "=";
+        String p4 = X + "-" + e + "/" + 2 + "%" + e + "+" + 1 + "=";
         System.out.print(p4);
-        // System.out.println(x-e/2%e+1);
-        res_int_4 = x - e / 2 % e + 1;
-        res_float_4 = x - e / 2 % e + 1;
-        res_double_4 = x - e / 2 % e + 1;
-        // res_short_4 =x-e/2%e+1; error
-        // res_byte_4 =x-e/2%e+1; error
+        // System.out.println(X-e/2%e+1);
+        res_int_4 = X - e / 2 % e + 1;
+        res_float_4 = X - e / 2 % e + 1;
+        res_double_4 = X - e / 2 % e + 1;
+        // res_short_4 =X-e/2%e+1; error
+        // res_byte_4 =X-e/2%e+1; error
 
         System.out.print("(int) " + res_int_4);
         System.out.print(" (float) " + res_float_4);
